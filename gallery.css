@@ -1,0 +1,31 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ h1{
+    text-align: center;
+    background-color: crimson;
+    color: aliceblue;
+    border: 5px solid;
+    border-radius: 26px;
+    box-shadow: 5px 4px 99px 22px black;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    margin: 4px;
+    padding: 40px;
+    border-radius: 50px;
+    transition: all 1s ease-in-out;
+}
+
+img:hover{
+    width:250px;
+    height:auto;
+    box-shadow: 5px 5px 20px black;
+}
